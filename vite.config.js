@@ -19,3 +19,4 @@
         base: '/nuevo-card-academia-judicial/',
     });
     // // Se agrega la base carpeta donde se encuentra el proyecto
+    // Hola
