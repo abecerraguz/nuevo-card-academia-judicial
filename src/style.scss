@@ -2,8 +2,8 @@
 $fondo-body: #ffffff;
 $fondo-chat: #fafafa;
 $fondo-cometario: #eff3f7;
-$fondo-button-two:#2c7fb7;
-$fondo-button-two-hover:#80bbe3;
+$fondo-button-two:#f74d2e;
+$fondo-button-two-hover:#0a0039;
 $fondo-button-one:#ffffff;
 $border-button:#31719c;
 $text-button-one:#2c7fb7;
@@ -14,6 +14,7 @@ $border-img: #88b4c3;
 $border-img-avatar: #80bbe3;
 $border-text: #80bbe3;
 $color-text: #3a3a3a;
+$color-white: #ffff;
 $color-name:#2c7fb7;
 $color-text-hover: #000000;
 $border-radius-0: 0;
@@ -911,4 +912,261 @@ $font-family-sans-serif: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
        }
      }
 }
+
+.cardAcademia{
+  width: 100%;
+  height:100%!important;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  position: relative;
+  padding: 130px 1rem 1rem 1rem;
+  z-index: 0;
+  margin-bottom: 2rem;
+ 
+    &__img{
+      width: 50%;
+      height: 200px;
+      background-color: #e5e5e5;
+      position: absolute;
+      top: -100px;
+      left:25%;
+      right: 25%;
+      z-index: 1;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+      border: 1px solid gainsboro;
+      border-radius: 3px;
+      img{
+        width: 100%;
+        // height: 100%;
+        object-fit: cover;
+        border-radius: 3px;
+      }
+    }
+
+    &__close{
+      color: #0a0039;
+      position: absolute;
+      top: 10px;
+      right:1rem;
+      font-size: 1.9rem;
+      cursor: pointer;
+      // padding: 1rem;
+      // background-color: #e9521e;
+    }
+
+    &__body{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+    }
+    &__title{
+      font-family: $font-family-sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: $color-text;
+      margin-bottom: 0.5rem;
+      line-height: 140%;
+    }
+    &__autores{
+      margin: 1rem 0;
+      h6{
+        font-family: $font-family-sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: $color-text;
+        margin-bottom: 0.3rem;
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        li{
+          font-size: 0.8rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    &__fecha{
+      margin: 1rem 0;
+      h6{
+        font-family: $font-family-sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: $color-text;
+        margin-bottom: 0.3rem;
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        li{
+          font-size: 0.8rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    &__categorias{
+      margin: 1rem 0 2rem 0;
+      h6{
+        font-family: $font-family-sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: $color-text;
+        margin-bottom: 0.3rem;
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        li{
+          font-size: 0.8rem;
+          font-weight: 400;
+        }
+      }
+    }
+
+    &__buttonResumen{
+      width: 100%;
+      height: auto;
+      color: $color-white;
+      background-color: $fondo-button-two;
+      padding: 0.8rem 1rem;
+      margin: 0 0 1rem 0;
+      display: flex;
+      border-radius: 0.3rem;
+      text-decoration: none;
+      transition: all ease 0.25s;
+      font-size: 0.8rem;
+      justify-content: flex-start;
+      align-items: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      i{
+        margin-right: 5px;
+        font-size: 1rem;
+      }
+    }
+  
+    &__buttonResumen:hover{
+      background-color: $fondo-button-two-hover;
+    }
+
+    &__buttonPdf{
+      width: 100%;
+      height: auto;
+      color: $color-white;
+      background-color: $fondo-button-two;
+      padding: 0.8rem 1rem;
+      margin: 0 0 1rem 0;
+      display: flex;
+      border-radius: 0.3rem;
+      text-decoration: none;
+      transition: all ease 0.25s;
+      font-size: 0.8rem;
+      justify-content: flex-start;
+      align-items: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      i{
+        margin-right: 5px;
+        font-size: 1rem;
+      }
+    }
+  
+    &__buttonPdf:hover{
+      background-color: $fondo-button-two-hover;
+    }
+
+    &__resumen{
+      width: 100%;
+      height: 100%;
+      // position: absolute;
+      bottom: 0;
+      left: 0;
+      background: white;
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+    }
+
+    &__resumen.resumenModalUp {
+      width: 100%;
+      height: 100%;
+      // position: absolute;
+      bottom: 0;
+      left: 0;
+      background: white;
+      opacity: 1;
+    }
+
+    &__resumen-scroll{
+      margin-left: 0;
+      float: left;
+      height: 300px;
+      width: 100%;
+      background: #F5F5F5;
+      overflow-y: scroll;
+      // margin-bottom: 25px;
+    }
+
+
+
+
+}
+
+.cardAcademia__p{
+  font-size: 13px;
+  line-height: 150%;
+  text-align: left;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem 0.8rem 1rem 0;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.force-overflow{
+  min-height: 450px;
+}
+
+
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #b1b1b1;
+  border: none;
+}
+
+.cardAcademia__p.force-overflow:after {
+  content: '';
+  width: 270px;
+  height: 60px;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 55%);
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  z-index: 999;
+}
+
+.cardAcademia__p.force-overflow:before {
+  content: "";
+  width: 272px;
+  height: 30px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 55%);
+  position: absolute;
+  top: 64px;
+  left: 1px;
+  z-index: 999;
+}
+
+
   

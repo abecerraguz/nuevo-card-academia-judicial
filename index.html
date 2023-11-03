@@ -6,319 +6,314 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/f6f28e61f7.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
   <title>Vite App</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
-        <div class="containerMatch">
-          <div class="loader">
-            <div class="loader-circle">
-              <div class="loader-innerCircle"></div> 
-            </div>
-            <a href="#">
-              <img src="./src/public/icono.svg" alt="" class="loader__img">
-            </a>
-         </div>
-         <div class="containerMatch__text">
-            <p><a href="#" target="_blank" class="containerMatch__text-link">Ya están los primeros Match conócelos!</a></p>
-         </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6"></div>
-    </div>
-  
-  </div>
-
-  <div class="container">
-    <img src="./src/public/org-hogar-cristo-2023.svg" alt="">
-  </div>
-  
 
 
-  <!-- Inicio  Push-->
-  <div class="contentPush">
-
-    <div class="contentPush__brand">
-      <div class="contentPush__brand-img">
-        <img src="http://placehold.jp/120x120.png" alt="logo" />
-      </div>
-      <p>¿Te gustaría recibir notificaciones de las noticias más importantes?</p>
-    </div>
-  
-    <div class="contentPush__buttons">
-      <button class="buttonNoNotificaciones">No, gracias</button>
-      <button class="buttonSiPorNotificaciones">Si, por notificaciones</button>
-    </div>
-
-  </div>
-  <!-- Cierre  Push-->
-
-  <nav class="nav">
-    <div class="nav__container">
-      <a href="#" class="nav__brand">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
         <img src="http://placehold.jp/200x40.png" alt="Logotipo Vertical">
       </a>
-      <ul class="nav__option">
-        <li><a href="#">Menu 1</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
-        <li><a href="#">Menu 4</a></li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
   </nav>
 
-  <div class="chat">
-    <!-- Inicio chat__header -->
-    <div class="chat__header">
-      <div class="chat__header-logo">
-        <img src="http://placehold.jp/200x40.png" alt="logo" />
+
+
+  <div class="container" style="padding-top: 200px;">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gutter-y-8 mt-1">
+
+
+      <!-- Inicio Card 1 -->
+      <div class="col-md-3">
+        <!-- Inicio de  cardAcademia-->
+        <div class="cardAcademia">
+
+
+          <i class="bi bi-x cardAcademia__close d-none" id="cardAcademia__close-12546"></i>
+
+
+          <div class="cardAcademia__img">
+            <img src="https://academiajudicial.cl/wp-content/uploads/2023/02/59-212x300.jpg" alt="Imagenes">
+          </div>
+
+          <div class="cardAcademia__body">
+
+            <h5 class="cardAcademia__title">Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales
+            </h5>
+
+            <div class="cardAcademia__content" id="cardAcademia__content-12546">
+
+              <div class="cardAcademia__autores">
+                <h6>Autores:</h6>
+                <ul>
+                  <li>Claudia Poblete Olmedo</li>
+                  <li>Guillermo Soto Vergara</li>
+                </ul>
+              </div>
+
+              <div class="cardAcademia__fecha">
+                <h6>Fecha de Publicación:</h6>
+                <ul>
+                  <li>07/02/2023</li>
+                </ul>
+              </div>
+
+              <div class="cardAcademia__categorias">
+                <h6>Categoria:</h6>
+                <ul>
+                  <li>Redacción de resoluciones judiciales y lenguaje claro</li>
+                  <li>Redacción de resoluciones judiciales y lenguaje claro</li>
+                </ul>
+              </div>
+
+              <a href="#" class="cardAcademia__buttonResumen" id="actionButton-12546"><i class="bi bi-eye"></i>Ver
+                resumen</a>
+              <a href="#" class="cardAcademia__buttonPdf"><i class="bi bi-file-earmark-pdf"></i>Ver publicación en
+                PDF</a>
+
+            </div>
+
+            <div class="cardAcademia__resumen d-none" id="cardAcademia__resumen-12546">
+              <div class="cardAcademia__resumen-scroll scroll">
+                <div class="cardAcademia__p force-overflow">
+                  Lenguaje claro aborda las temáticas del lenguaje claro, lenguaje jurídico claro y lenguaje inclusivo
+                  desde la perspectiva del acceso a la justicia. Se revisan las principales acciones que ha llevado a
+                  cabo el Poder Judicial en materia de lenguaje claro y los productos que se han generado en esta línea.
+                  Junto con esto, se explican y desarrollan diferentes estrategias discursivas para aclarar la
+                  comunicación con los usuarios y las usuarias, así como también sugerencias para la
+                  conducción de audiencias en la modalidad oral.
+                  El texto parte con capítulos introductorios sobre el lenguaje claro, sus antecedentes, origen avances
+                  en Chile. Luego se desarrolla el lenguaje inclusivo y su relación con el lenguaje claro como
+                  estrategias posibles para favorecer la comunicación clara y como política de acceso a la justicia.
+                  Posteriormente, el texto se enfoca en el desarrollo de herramientas y estrategias lingüísticas y
+                  discursivas para favorecer la claridad de los textos (escritos y orales) en el contexto judicial, así
+                  como otras herramientas disponibles en línea. Desde la mirada lingüística de los autores se abordan
+                  estas temáticas y se revisan sugerencias concretas para aplicar en el ámbito judicial.
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+        <!-- Fin de  cardAcademia-->
       </div>
-      <div class="chat__header-button">
-        <button class="chat__header-button-buttonOne"> <i class="fa-regular fa-envelope"></i>Inscribirme</button>
-        <button class="chat__header-button-buttonTwo"> <i class="fa-solid fa-arrow-right-to-bracket"></i>Iniciar
-          sesión</button>
+      <!-- /Inicio Card 1 -->
+
+      <!-- Inicio Card 2 -->
+      <div class="col-md-3">
+        <!-- Inicio de  cardAcademia-->
+        <div class="cardAcademia">
+
+
+          <i class="bi bi-x cardAcademia__close d-none" id="cardAcademia__close-12547"></i>
+
+
+          <div class="cardAcademia__img">
+            <img src="https://academiajudicial.cl/wp-content/uploads/2023/02/52-212x300.jpg" alt="Academia">
+          </div>
+
+          <div class="cardAcademia__body">
+
+            <h5 class="cardAcademia__title">Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales
+            </h5>
+
+            <div class="cardAcademia__content" id="cardAcademia__content-12547">
+
+              <div class="cardAcademia__autores">
+                <h6>Autores:</h6>
+                <ul>
+                  <li>Claudia Poblete Olmedo</li>
+                  <li>Guillermo Soto Vergara</li>
+                </ul>
+              </div>
+
+              <div class="cardAcademia__fecha">
+                <h6>Fecha de Publicación:</h6>
+                <ul>
+                  <li>07/02/2023</li>
+                </ul>
+              </div>
+
+              <div class="cardAcademia__categorias">
+                <h6>Categoria:</h6>
+                <ul>
+                  <li>Redacción de resoluciones judiciales y lenguaje claro</li>
+                  <li>Redacción de resoluciones judiciales y lenguaje claro</li>
+                </ul>
+              </div>
+
+              <a href="#" class="cardAcademia__buttonResumen" id="actionButton-12547"><i class="bi bi-eye"></i>Ver
+                resumen</a>
+              <a href="#" class="cardAcademia__buttonPdf"><i class="bi bi-file-earmark-pdf"></i>Ver publicación en
+                PDF</a>
+
+            </div>
+
+            <div class="cardAcademia__resumen d-none" id="cardAcademia__resumen-12547">
+              <div class="cardAcademia__resumen-scroll scroll">
+                <div class="cardAcademia__p force-overflow">
+                  Lenguaje claro aborda las temáticas del lenguaje claro, lenguaje jurídico claro y lenguaje inclusivo
+                  desde la perspectiva del acceso a la justicia. Se revisan las principales acciones que ha llevado a
+                  cabo el Poder Judicial en materia de lenguaje claro y los productos que se han generado en esta línea.
+                  Junto con esto, se explican y desarrollan diferentes estrategias discursivas para aclarar la
+                  comunicación con los usuarios y las usuarias, así como también sugerencias para la
+                  conducción de audiencias en la modalidad oral.
+                  El texto parte con capítulos introductorios sobre el lenguaje claro, sus antecedentes, origen avances
+                  en Chile. Luego se desarrolla el lenguaje inclusivo y su relación con el lenguaje claro como
+                  estrategias posibles para favorecer la comunicación clara y como política de acceso a la justicia.
+                  Posteriormente, el texto se enfoca en el desarrollo de herramientas y estrategias lingüísticas y
+                  discursivas para favorecer la claridad de los textos (escritos y orales) en el contexto judicial, así
+                  como otras herramientas disponibles en línea. Desde la mirada lingüística de los autores se abordan
+                  estas temáticas y se revisan sugerencias concretas para aplicar en el ámbito judicial.
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+        <!-- Fin de  cardAcademia-->
       </div>
-   
+      <!-- /Inicio Card 2 -->
+
+      <!-- Inicio Card 3 -->
+      <div class="col-md-3">
+        <!-- Inicio de  cardAcademia-->
+        <div class="cardAcademia">
+
+
+          <i class="bi bi-x cardAcademia__close d-none" id="cardAcademia__close-12548"></i>
+
+
+          <div class="cardAcademia__img">
+            <img src="https://academiajudicial.cl/wp-content/uploads/2023/02/42-212x300.jpg" alt="">
+          </div>
+
+          <div class="cardAcademia__body">
+
+            <h5 class="cardAcademia__title">Valoración probatoria: exigencias legales, jurisprudenciales y doctrinales
+            </h5>
+
+            <div class="cardAcademia__content" id="cardAcademia__content-12548">
+
+              <div class="cardAcademia__autores">
+                <h6>Autores:</h6>
+                <ul>
+                  <li>Claudia Poblete Olmedo</li>
+                  <li>Guillermo Soto Vergara</li>
+                </ul>
+              </div>
+
+              <div class="cardAcademia__fecha">
+                <h6>Fecha de Publicación:</h6>
+                <ul>
+                  <li>07/02/2023</li>
+                </ul>
+              </div>
+
+              <div class="cardAcademia__categorias">
+                <h6>Categoria:</h6>
+                <ul>
+                  <li>Redacción de resoluciones judiciales y lenguaje claro</li>
+                  <li>Redacción de resoluciones judiciales y lenguaje claro</li>
+                </ul>
+              </div>
+
+              <a href="#" class="cardAcademia__buttonResumen" id="actionButton-12548"><i class="bi bi-eye"></i>Ver
+                resumen</a>
+              <a href="#" class="cardAcademia__buttonPdf"><i class="bi bi-file-earmark-pdf"></i>Ver publicación en
+                PDF</a>
+
+            </div>
+
+            <div class="cardAcademia__resumen d-none" id="cardAcademia__resumen-12548">
+              <div class="cardAcademia__resumen-scroll scroll">
+                <div class="cardAcademia__p force-overflow">
+                  Lenguaje claro aborda las temáticas del lenguaje claro, lenguaje jurídico claro y lenguaje inclusivo
+                  desde la perspectiva del acceso a la justicia. Se revisan las principales acciones que ha llevado a
+                  cabo el Poder Judicial en materia de lenguaje claro y los productos que se han generado en esta línea.
+                  Junto con esto, se explican y desarrollan diferentes estrategias discursivas para aclarar la
+                  comunicación con los usuarios y las usuarias, así como también sugerencias para la
+                  conducción de audiencias en la modalidad oral.
+                  El texto parte con capítulos introductorios sobre el lenguaje claro, sus antecedentes, origen avances
+                  en Chile. Luego se desarrolla el lenguaje inclusivo y su relación con el lenguaje claro como
+                  estrategias posibles para favorecer la comunicación clara y como política de acceso a la justicia.
+                  Posteriormente, el texto se enfoca en el desarrollo de herramientas y estrategias lingüísticas y
+                  discursivas para favorecer la claridad de los textos (escritos y orales) en el contexto judicial, así
+                  como otras herramientas disponibles en línea. Desde la mirada lingüística de los autores se abordan
+                  estas temáticas y se revisan sugerencias concretas para aplicar en el ámbito judicial.
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+        <!-- Fin de  cardAcademia-->
+      </div>
+      <!-- /Inicio Card 3 -->
+
     </div>
-    <div class="chat__header-contenedor">
-      <p>Inicia sesión o crea una cuenta en Comunidad Bío Bío para comentar. Como una forma de mantener un debate respetuoso, eliminaremos cuentas falsas y mensajes agresivos u ofensivos. </p>
-      <p class="chat__header-contenedor-infoCometarios">32 comentarios</p>
-    </div>
-    <!-- /fin chat__header -->
-
-    <!-- Inicio chat__body -->
-    <div class="chat__body">
-
-      <!-- Inicio Padre 1 -->
-      <div class="chat__body-contenedorPadre">
-
-        <!-- Inicio Avatar Padre -->
-        <div class="chat__body-avatarPadre">
-          <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Autor">
-        </div>
-        <!-- Cierre Avatar Padre -->
-
-        <!-- Inicio cometario Padre -->
-        <div class="chat__body-contentCometarioPadre">
-          <p class="chat__body-contentCometarioPadre-text">
-            <span class="chat__body-contentCometarioPadre-text-name">Fernanda Rojas</span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-            corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-            error, possimus fugit assumenda animi aliquam sed optio!. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Autem,
-            corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-            error, possimus fugit assumenda animi aliquam sed optio!
-          </p>
-          <div class="chat__body-contentCometarioPadre-like">
-            <small>
-              <img src="./src/public/like.svg" alt="like"><span class="textNum">(10)</span>
-            </small>
-            <small>
-              <img src="./src/public/no-like.svg" alt="not-like"><span class="textNum">(2)</span>
-            </small>
-            <small class="textTime">Hace 4 horas</small>
-          </div>
-
-
-          <!-- Inicio Contenedor Hijo 1 -->
-          <div class="chat__body-contenedorHijo">
-
-            <!-- Inicio Avatar Hijo -->
-            <div class="chat__body-avatarHijo">
-              <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Autor">
-            </div>
-            <!-- Cierre Avatar Hijo -->
-
-            <!-- Inicio cometario Hijo 1 -->
-            <div class="chat__body-contentCometarioHijo">
-              <p class="chat__body-contentCometarioHijo-text">
-                <span class="chat__body-contentCometarioHijo-text-name">Fernanda Rojas</span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!. Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!
-              </p>
-              <div class="chat__body-contentCometarioHijo-like">
-                <small>
-                  <img src="./src/public/like.svg" alt="like"><span class="textNum">(10)</span>
-                </small>
-                <small>
-                  <img src="./src/public/no-like.svg" alt="not-like"><span class="textNum">(2)</span>
-                </small>
-                <small class="textTime">Hace 4 horas</small>
-              </div>
-            </div>
-            <!-- Cierre cometario Hijo 1-->
-
-          </div>
-          <!-- /Cierre Contenedor Hijo 1 -->
-
-          <!-- Inicio Contenedor Hijo 2 -->
-          <div class="chat__body-contenedorHijo">
-
-            <!-- Inicio Avatar Hijo -->
-            <div class="chat__body-avatarHijo">
-              <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Autor">
-            </div>
-            <!-- Cierre Avatar Hijo -->
-
-            <!-- Inicio cometario Hijo 1 -->
-            <div class="chat__body-contentCometarioHijo">
-              <p class="chat__body-contentCometarioHijo-text">
-                <span class="chat__body-contentCometarioHijo-text-name">Fernanda Rojas</span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!. Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!
-              </p>
-              <div class="chat__body-contentCometarioHijo-like">
-                <small>
-                  <img src="./src/public/like.svg" alt="like"><span class="textNum">(10)</span>
-                </small>
-                <small>
-                  <img src="./src/public/no-like.svg" alt="not-like"><span class="textNum">(2)</span>
-                </small>
-                <small class="textTime">Hace 4 horas</small>
-              </div>
-            </div>
-            <!-- Cierre cometario Hijo 1-->
-
-          </div>
-          <!-- /Cierre Contenedor Hijo 2-->
-
-
-        </div>
-        <!-- Cierre cometario Padre -->
-
-      </div>
-       <!-- Cierre Padre 1 -->
-
-      <!-- Inicio Padre 2 -->
-      <div class="chat__body-contenedorPadre">
-
-        <!-- Inicio Avatar Padre -->
-        <div class="chat__body-avatarPadre">
-          <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Autor">
-        </div>
-        <!-- Cierre Avatar Padre -->
-
-        <!-- Inicio cometario Padre -->
-        <div class="chat__body-contentCometarioPadre">
-          <p class="chat__body-contentCometarioPadre-text">
-            <span class="chat__body-contentCometarioPadre-text-name">Fernanda Rojas</span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-            corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-            error, possimus fugit assumenda animi aliquam sed optio!. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Autem,
-            corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-            error, possimus fugit assumenda animi aliquam sed optio!
-          </p>
-          <div class="chat__body-contentCometarioPadre-like">
-            <small>
-              <img src="./src/public/like.svg" alt="like"><span class="textNum">(10)</span>
-            </small>
-            <small>
-              <img src="./src/public/no-like.svg" alt="not-like"><span class="textNum">(2)</span>
-            </small>
-            <small class="textTime">Hace 4 horas</small>
-          </div>
-
-
-          <!-- Inicio Contenedor Hijo 1 -->
-          <div class="chat__body-contenedorHijo">
-
-            <!-- Inicio Avatar Hijo -->
-            <div class="chat__body-avatarHijo">
-              <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Autor">
-            </div>
-            <!-- Cierre Avatar Hijo -->
-
-            <!-- Inicio cometario Hijo 1 -->
-            <div class="chat__body-contentCometarioHijo">
-              <p class="chat__body-contentCometarioHijo-text">
-                <span class="chat__body-contentCometarioHijo-text-name">Fernanda Rojas</span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!. Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!
-              </p>
-              <div class="chat__body-contentCometarioHijo-like">
-                <small>
-                  <img src="./src/public/like.svg" alt="like"><span class="textNum">(10)</span>
-                </small>
-                <small>
-                  <img src="./src/public/no-like.svg" alt="not-like"><span class="textNum">(2)</span>
-                </small>
-                <small class="textTime">Hace 4 horas</small>
-              </div>
-            </div>
-            <!-- Cierre cometario Hijo 1-->
-
-          </div>
-          <!-- /Cierre Contenedor Hijo 1 -->
-
-          <!-- Inicio Contenedor Hijo 2 -->
-          <div class="chat__body-contenedorHijo">
-
-            <!-- Inicio Avatar Hijo -->
-            <div class="chat__body-avatarHijo">
-              <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Autor">
-            </div>
-            <!-- Cierre Avatar Hijo -->
-
-            <!-- Inicio cometario Hijo 1 -->
-            <div class="chat__body-contentCometarioHijo">
-              <p class="chat__body-contentCometarioHijo-text">
-                <span class="chat__body-contentCometarioHijo-text-name">Fernanda Rojas</span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!. Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Autem,
-                corporis fugit? Reiciendis, esse est perferendis, blanditiis alias iusto numquam nulla molestiae omnis
-                error, possimus fugit assumenda animi aliquam sed optio!
-              </p>
-              <div class="chat__body-contentCometarioHijo-like">
-                <small>
-                  <img src="./src/public/like.svg" alt="like"><span class="textNum">(10)</span>
-                </small>
-                <small>
-                  <img src="./src/public/no-like.svg" alt="not-like"><span class="textNum">(2)</span>
-                </small>
-                <small class="textTime">Hace 4 horas</small>
-              </div>
-            </div>
-            <!-- Cierre cometario Hijo 1-->
-
-          </div>
-          <!-- /Cierre Contenedor Hijo 2-->
-
-
-        </div>
-        <!-- Cierre cometario Padre -->
-        
-      </div>
-      <!-- /Cierre Padre 2 -->
-
-    </div>
-    <!-- /Cierre chat__body -->
-
-    <!-- Inicio Mostrar mas cometarios -->
-      <button class="buttonMostrarMas"><i class="fa-solid fa-angle-down"></i>Mostrar mas comentarios</button>
-    <!-- Cierre Mostrar mas cometarios -->
 
   </div>
   <div id="app"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
   <script type="module" src="./src/main.js"></script>
 </body>
 
